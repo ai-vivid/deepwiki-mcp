@@ -1,0 +1,47 @@
+{
+  "name": "deepwiki-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for DeepWiki.com integration - AI-powered code exploration and documentation parsing",
+  "main": "dist/index.js",
+  "type": "module",
+  "author": "deepwiki-mcp contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ai-vivid/deepwiki-mcp.git"
+  },
+  "homepage": "https://github.com/ai-vivid/deepwiki-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/ai-vivid/deepwiki-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "deepwiki",
+    "ai",
+    "code-exploration",
+    "documentation",
+    "claude",
+    "anthropic",
+    "automation",
+    "playwright"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "playwright": "^1.40.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
